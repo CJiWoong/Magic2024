@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "솔루션 항목", "솔루션 항목", "{67935161-69B8-4485-91F5-F0EEC8A68BD1}"
+	ProjectSection(SolutionItems) = preProject
+		Magic.vsd = Magic.vsd
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gCAD_Calc2020", "gCAD_Calc\gCAD_Calc2020.csproj", "{1D93330A-8811-4ED5-9C31-AD70DCFF2178}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MagicRegister2020", "MagicRegister\MagicRegister2020.vcxproj", "{C0C36AA0-D7E2-4CC1-AD5C-F5728AA9D213}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MagicUtil2020", "MagicUtil\MagicUtil2020.vcxproj", "{8FB81EA9-5A10-4573-850A-759CFDEF99E3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MagicCivil2020", "MagicCivil\MagicCivil2020.vcxproj", "{09260307-48C2-4E0B-8A29-EAE6CD8DCDD5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D93330A-8811-4ED5-9C31-AD70DCFF2178}.Debug|x64.ActiveCfg = Debug|x64
+		{1D93330A-8811-4ED5-9C31-AD70DCFF2178}.Debug|x64.Build.0 = Debug|x64
+		{1D93330A-8811-4ED5-9C31-AD70DCFF2178}.Debug|x86.ActiveCfg = Debug|Win32
+		{1D93330A-8811-4ED5-9C31-AD70DCFF2178}.Debug|x86.Build.0 = Debug|Win32
+		{1D93330A-8811-4ED5-9C31-AD70DCFF2178}.Release|x64.ActiveCfg = Release|x64
+		{1D93330A-8811-4ED5-9C31-AD70DCFF2178}.Release|x64.Build.0 = Release|x64
+		{1D93330A-8811-4ED5-9C31-AD70DCFF2178}.Release|x86.ActiveCfg = Release|Win32
+		{1D93330A-8811-4ED5-9C31-AD70DCFF2178}.Release|x86.Build.0 = Release|Win32
+		{C0C36AA0-D7E2-4CC1-AD5C-F5728AA9D213}.Debug|x64.ActiveCfg = Debug|Win32
+		{C0C36AA0-D7E2-4CC1-AD5C-F5728AA9D213}.Debug|x86.ActiveCfg = Debug|Win32
+		{C0C36AA0-D7E2-4CC1-AD5C-F5728AA9D213}.Debug|x86.Build.0 = Debug|Win32
+		{C0C36AA0-D7E2-4CC1-AD5C-F5728AA9D213}.Release|x64.ActiveCfg = Release|Win32
+		{C0C36AA0-D7E2-4CC1-AD5C-F5728AA9D213}.Release|x86.ActiveCfg = Release|Win32
+		{C0C36AA0-D7E2-4CC1-AD5C-F5728AA9D213}.Release|x86.Build.0 = Release|Win32
+		{8FB81EA9-5A10-4573-850A-759CFDEF99E3}.Debug|x64.ActiveCfg = Debug|x64
+		{8FB81EA9-5A10-4573-850A-759CFDEF99E3}.Debug|x64.Build.0 = Debug|x64
+		{8FB81EA9-5A10-4573-850A-759CFDEF99E3}.Debug|x86.ActiveCfg = Debug|Win32
+		{8FB81EA9-5A10-4573-850A-759CFDEF99E3}.Debug|x86.Build.0 = Debug|Win32
+		{8FB81EA9-5A10-4573-850A-759CFDEF99E3}.Release|x64.ActiveCfg = Release|x64
+		{8FB81EA9-5A10-4573-850A-759CFDEF99E3}.Release|x64.Build.0 = Release|x64
+		{8FB81EA9-5A10-4573-850A-759CFDEF99E3}.Release|x86.ActiveCfg = Release|Win32
+		{8FB81EA9-5A10-4573-850A-759CFDEF99E3}.Release|x86.Build.0 = Release|Win32
+		{09260307-48C2-4E0B-8A29-EAE6CD8DCDD5}.Debug|x64.ActiveCfg = Debug|x64
+		{09260307-48C2-4E0B-8A29-EAE6CD8DCDD5}.Debug|x64.Build.0 = Debug|x64
+		{09260307-48C2-4E0B-8A29-EAE6CD8DCDD5}.Debug|x86.ActiveCfg = Debug|Win32
+		{09260307-48C2-4E0B-8A29-EAE6CD8DCDD5}.Debug|x86.Build.0 = Debug|Win32
+		{09260307-48C2-4E0B-8A29-EAE6CD8DCDD5}.Release|x64.ActiveCfg = Release|x64
+		{09260307-48C2-4E0B-8A29-EAE6CD8DCDD5}.Release|x64.Build.0 = Release|x64
+		{09260307-48C2-4E0B-8A29-EAE6CD8DCDD5}.Release|x86.ActiveCfg = Release|Win32
+		{09260307-48C2-4E0B-8A29-EAE6CD8DCDD5}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7140F149-32CB-4407-A424-EFA92B34A537}
+	EndGlobalSection
+EndGlobal

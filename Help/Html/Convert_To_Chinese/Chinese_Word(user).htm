@@ -1,0 +1,67 @@
+<html>
+<head>
+<script type="text/javascript" src="../../expcol.js"></script>
+<meta name="keywords" content="입력|한자 입력|한자 단어 등록">
+<link rel="stylesheet" type="text/css" href="../../help.css">
+<title>한자 단어 한꺼번에 등록</title>
+
+<meta http-equiv="content-type" content="text/html; charset=euc-kr">
+</head>
+<body leftmargin=0 topmargin=0 rightmargin=0>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+  <td  height="40" class="Bg01"><img src="../../images/blank.gif" width="9" height="8" border="0" alt=""></td>
+  <td width="99%" class="Bg02"><h1>한자 단어 한꺼번에 등록</h1></td>
+  </tr>
+  <tr>
+  <td  class="Bg03">&nbsp;</td>
+  <td class="Bg04" align="right" ><p class="ui-path">입력-한자 입력-한자로 바꾸기</td>
+  </tr> 
+</table>
+<P id="ExpAllLine" class="expall"><A href="#" onclick="ExpandAll()" class="DropDown"><SPAN id="ExpandAll">모두 보이기</SPAN></A></P>
+<p class="intro">많은 양의 한자 단어 자료를 만든 다음 한자 단어 사전에 한 번에 등록시킬 수 있는 기능을 제공합니다.</P>
+<p class="intro2">사용자가 별도의 자료 파일을 일정한 형식에 맞추어 만든 후에 [한자로 바꾸기] 대화 상자에서 이 파일을 불러오면 한자 단어 사전에 데이터를 추가로 등록할 수 있습니다.</P>
+<h2><img src="../../images/dot.gif" border="0" > 따라 하기</h2>
+<h5><a href="#" class="DropDown" onclick="expdiv()"><img border=0 src="../../images/icon_plus.gif"> 한자 단어 자료 파일 만들기</a></h5>
+<div id="expcol" class="collapsed" border="0">
+<ol>
+<li>한자 단어 사전에 등록할 자료를 다음과 같은 방법으로 한 줄에 한 쌍씩 입력한 다음 [파일-다른 이름으로 저장하기]를 실행합니다.
+<p>예) 유비,劉備</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;관우,關羽</p>
+</li>
+<li>[다른 이름으로 저장하기] 대화 상자가 나타나면 [파일 형식] 목록에서 "유니코드 문자(*.txt)"를 선택합니다.</li>
+<li>[파일 이름] 입력 상자에 새 이름을 입력하고 [저장] 단추를 누릅니다.
+<li>[유니코드 문서 종류] 대화 상자가 나타나면 [인코딩 형식 선택] 목록에서 "유니코드"를 선택하고 [확인]을 누릅니다.
+<li>윈도우 탐색기에서 위 파일을 찾아 파일의 확장자를 *.hju로 직접 수정합니다.
+  <p>예) 파일이름.hju</p>
+</li>
+</ol>
+</div>
+<h5><a href="#" class="DropDown" onclick="expdiv()"><img border=0 src="../../images/icon_plus.gif"> 한자 단어 자료 파일 등록하기</a></h5>
+<div id="expcol" class="collapsed" border="0">
+<ol>
+<li>사용자가 한자 단어 사전에 등록한 단어를 사용하기 위해 [<A href="./convert_to_chinese.htm">입력-한자 입력-한자로 바꾸기</A>]를 실행합니다.</li>
+<li>[한자로 바꾸기] 대화 상자가 나타나면 [텍스트 파일 등록하기] 아이콘을 누릅니다.
+<li>[사용자 한자 텍스트 등록] 대화 상자가 나타나면 "사용자 한자 텍스트 등록 파일(*.hju)"의 위치를 찾아 파일을 선택하고 [열기]를 누릅니다.<br>이렇게 하면 해당 자료가 사용자 한자 사전에 한꺼번에 추가 등록됩니다.</li>
+<li>[한자로 바꾸기] 대화 상자에서 [닫기]를 누릅니다.</li>
+<li>본문에 "관우"를 입력하고 [입력-한자 입력-한자로 바꾸기]를 실행하면 한자 목록에 "關羽"가 나타납니다.</li>
+</ol>
+</div>
+<h2><img src="../../images/dot.gif" border="0" > 참고 </h2>
+<h3>자료 입력 형식</h3>
+<p>한자 단어 사전에 등록할 자료는 아래 예와 같이 "한글,한자"와 같은 형식으로 빈칸 없이 한 줄에 한 쌍씩 입력합니다.
+<p>예)&nbsp;&nbsp;관우,關羽
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;장비,張飛
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;유비,劉備
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;조조,曹操
+<p> 위와 같이 자료를 입력한 문서는 반드시 "유니코드"로 지정하여 텍스트 파일로 저장한 다음, 수동으로 파일 확장자를 *.hju로 변경해야 합니다.
+<h3>기본 사용자 한자 단어 사전</h3>
+<p>사용자가 등록한 한자 단어는 사용자 한자 사전(hjuser6.dic)에 자동으로 추가됩니다.
+<p>기본으로 저장되는 사용자 한자 사전은 개인 데이터 폴더 아래 \Hnc\User\Shared\Dics 폴더에 저장됩니다. </p>
+<p>개인 데이터 폴더의 위치는 [도움말-한글과컴퓨터 한/글 2007 정보-폴더 정보]에서 확인할 수 있습니다.</p>
+<h2><img src="../../images/dot.gif" border="0"> 관련 기능</h2>
+<p class="related-link"><A href="./chinese_word(reg).htm">한자 단어 등록</A>, <A href="./Convert_To_Chinese.htm">한자로 바꾸기</A>, <A href="./chinese_word.htm">한자 단어 사전</A></p>
+<p class="footer">
+<a href="http://www.haansoft.com/" target="_blank" >www.haansoft.com</a>
+</body>
+</html>

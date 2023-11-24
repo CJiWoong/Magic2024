@@ -1,0 +1,25 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=Magic.chm
+Contents file=D:\PROJECTS\Magic\Help\Magic.hhc
+Default topic=Html\About.htm
+Display compile progress=No
+Index file=D:\PROJECTS\Magic\Help\Magic.hhk
+Language=0x412 한국어(대한민국)
+
+
+[FILES]
+Html\About.htm
+Html\Copyright.htm
+Html\Command.htm
+Html\MPL.htm
+Html\TCO.htm
+Html\TSW.htm
+Html\TEI.htm
+Html\CR.htm
+Html\CTP.htm
+Html\PW.htm
+Html\DLS.htm
+
+[INFOTYPES]
+

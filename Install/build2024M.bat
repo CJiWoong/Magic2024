@@ -1,0 +1,1 @@
+"C:\Program Files (x86)\NSIS\makensis.exe" /NOCD MagicSetup-2024MWin64.nsi

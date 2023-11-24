@@ -1,0 +1,46 @@
+VBA 프로젝트 파일 (.vbi) 호환이 안됨
+  GstarCAD 2012 EX에서 저장한 .vbi 파일이 GstarCAD 8에서 열리지 않음
+  반대의 경우에도 안열림
+
+GstarCAD는 Modeless Form에서 Focus를 잃어버리는 문제가 없음
+  AcFocusCtrl을 사용안해도 됨
+
+AcadLayerStateManager 지원 안됨
+
+thisDrawing.ModelSpace를 Property로 사용할 때 AddLightWeightPolyline에 문제가 생김
+
+AddLightWeightPolyline -> GcadAddLightWeightPolyline
+
+CSpace -> WorkSpace
+
+dll.GetPnt -> thisDrawing.Utility.GetPoint
+
+dll.GetText -> UtilSelectText
+
+dll.GetLine -> UtilSelectPLine
+
+dll.GetCoordCount -> UtilCoordUbound
+
+dll.GetObj -> UtilSelectEntity
+
+CheckEsc -> UtilSelectPntStr
+
+CmdPrompt -> UtilShowPrompt
+
+ -> UtilRotatePoint
+
+ -> UtilLayerExist
+
+-> UtilLayerState
+
+-> UtilSelSetCreate
+
+-> UtilRepeatString
+
+-> Util2PtsDist
+
+dll.EscCheck -> 삭제
+
+AcadApp -> GcadApp
+
+util.SwapData -> UtilSwapValue

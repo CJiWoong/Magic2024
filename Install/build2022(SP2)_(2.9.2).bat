@@ -1,0 +1,1 @@
+"NSIS\makensis.exe" /NOCD MagicSetup-2022Win64(2.9.2).nsi

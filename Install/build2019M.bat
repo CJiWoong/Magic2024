@@ -1,0 +1,1 @@
+"C:\Program Files (x86)\NSIS\makensis.exe" /NOCD MagicSetup-2019MWin64.nsi
